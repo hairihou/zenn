@@ -4,23 +4,24 @@
   "description": "zenn articles.",
   "main": "index.js",
   "scripts": {
-    "format": "prettier \"**/*.{json,md,yaml}\" --write"
+    "preview": "zenn preview",
+    "format": "prettier \"**/*.{json,md}\" --write"
   },
   "author": "Yusuke Mizuno<hairihou.dev@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/hairihou/zenn.git",
   "devDependencies": {
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "prettier": "^3.0.3",
-    "zenn-cli": "^0.1.144"
+    "husky": "^9.0.10",
+    "lint-staged": "^15.2.1",
+    "prettier": "^3.2.5",
+    "zenn-cli": "^0.1.152"
   },
   "lint-staged": {
-    "**/*.{json,md,yaml}": [
+    "**/*.{json,md}": [
       "prettier --write"
     ]
   },
   "engines": {
-    "node": "^18.0.0"
+    "node": "^20.0.0"
   }
 }
