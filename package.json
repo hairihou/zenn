@@ -1,28 +1,21 @@
 {
   "name": "zenn",
   "version": "1.0.0",
-  "description": "zenn articles.",
   "main": "index.js",
   "scripts": {
     "preview": "zenn preview",
-    "format": "prettier \"**/*.{json,md,mjs}\" --write",
-    "prepare": "husky"
+    "lint": "biome lint .",
+    "format": "biome check --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hairihou/zenn.git"
   },
   "author": "Yusuke Mizuno<hairihou.dev@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/hairihou/zenn.git",
   "devDependencies": {
-    "husky": "^9.0.10",
-    "lint-staged": "^15.2.1",
-    "prettier": "^3.2.5",
+    "@biomejs/biome": "^1.9.2",
+    "lefthook": "^1.7.15",
     "zenn-cli": "^0.1.152"
-  },
-  "lint-staged": {
-    "**/*.{json,md,mjs}": [
-      "prettier --write"
-    ]
-  },
-  "engines": {
-    "node": "^20.0.0"
   }
 }
