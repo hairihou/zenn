@@ -6,7 +6,7 @@
   "scripts": {
     "preview": "zenn preview",
     "lint": "biome lint .",
-    "format": "prettier . --write"
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
