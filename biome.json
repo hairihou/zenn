@@ -1,9 +1,10 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.9.2/schema.json",
   "files": {
-    "ignore": [".vscode/*"]
+    "ignore": [".vscode"]
   },
   "formatter": {
+    "enabled": false,
     "formatWithErrors": true,
     "indentStyle": "space",
     "lineWidth": 120

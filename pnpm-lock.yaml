@@ -14,6 +14,9 @@ importers:
       lefthook:
         specifier: ^1.7.15
         version: 1.7.15
+      prettier:
+        specifier: ^3.3.3
+        version: 3.3.3
       zenn-cli:
         specifier: ^0.1.152
         version: 0.1.157
@@ -127,6 +130,11 @@ packages:
     resolution: {integrity: sha512-HW2mYkhg0a3RH2t57+ZJwacJiSIuDEhsXQAaCw6iGeN7zowdUV7g5QtnRdFdPkaK2eaNFpG6Rp0GsTrl/v0gNg==}
     hasBin: true
 
+  prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+    engines: {node: '>=14'}
+    hasBin: true
+
   zenn-cli@0.1.157:
     resolution: {integrity: sha512-df1JPOwdf3r9dH3YvgiAzfPZllzSB140uXB3EaDtVvxGaDQ2pMsrqaHkhFM6TIAk5KkVX4afN3K4RUwL+S1gKw==}
     engines: {node: '>=14.0.0'}
@@ -211,5 +219,7 @@ snapshots:
       lefthook-openbsd-x64: 1.7.15
       lefthook-windows-arm64: 1.7.15
       lefthook-windows-x64: 1.7.15
+
+  prettier@3.3.3: {}
 
   zenn-cli@0.1.157: {}

@@ -1,11 +1,12 @@
 {
   "name": "zenn",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "preview": "zenn preview",
     "lint": "biome lint .",
-    "format": "biome check --write ."
+    "format": "prettier . --write"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.2",
     "lefthook": "^1.7.15",
+    "prettier": "^3.3.3",
     "zenn-cli": "^0.1.152"
   }
 }

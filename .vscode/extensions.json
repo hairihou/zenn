@@ -1,0 +1,6 @@
+{
+  "recommendations": [
+    // Linting / Formatting
+    "biomejs.biome"
+  ]
+}

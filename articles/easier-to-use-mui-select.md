@@ -114,7 +114,7 @@ interface Props extends Omit<FormControlProps, 'children' | 'id' | 'onChange'> {
 export const SelectField: FC<Props> = ({ helperText, label, SelectProps, ...props }) => {
   const labelId = useMemo(
     () => (SelectProps?.id !== undefined ? `${SelectProps?.id}-label` : undefined),
-    [SelectProps?.id],
+    [SelectProps?.id]
   );
 
   return (
@@ -219,7 +219,7 @@ const SelectField: FC<Props> = forwardRef<HTMLDivElement, Props>(
   ({ helperText, label, SelectProps, ...props }, ref) => {
     const labelId = useMemo(
       () => (SelectProps?.id !== undefined ? `${SelectProps?.id}-label` : undefined),
-      [SelectProps?.id],
+      [SelectProps?.id]
     );
 
     return (
@@ -239,7 +239,7 @@ const SelectField: FC<Props> = forwardRef<HTMLDivElement, Props>(
         {!!helperText && <FormHelperText>{helperText}</FormHelperText>}
       </FormControl>
     );
-  },
+  }
 );
 
 SelectField.displayName = 'SelectField';
