@@ -1,6 +1,7 @@
 {
   "name": "zenn",
-  "version": "1.0.0",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "preview": "zenn preview",
@@ -12,7 +13,7 @@
     "url": "git+https://github.com/hairihou/zenn.git"
   },
   "author": "Yusuke Mizuno <hairihou.dev@gmail.com>",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "devDependencies": {
     "lefthook": "^1.10.0",
     "prettier": "^3.4.2",
