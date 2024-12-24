@@ -41,7 +41,7 @@ vite-project
 </html>
 ```
 
-新規で作るエントリーポイントは `/src/sub-page/main.ts` です。既にプロジェクトにある `src/main.ts` `src/App.ts` をコピーする形で以下のファイルも作っておきます。
+新規で作るエントリーポイントは `/src/sub-page/main.ts` です。既にプロジェクトにある `src/main.ts` `src/App.vue` をコピーする形で以下のファイルも作っておきます。
 
 ```vue: src/sub-page/SubPage.vue
 <script setup lang="ts">
