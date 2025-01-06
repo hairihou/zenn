@@ -1,0 +1,7 @@
+title: 'Vueで始めるUIライブラリ構築'
+summary: 'hands-on用のまとめ'
+topics: ['tailwindcss', 'vite', 'vue', 'pnpm', 'デザインシステム']
+published: false
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters: []
