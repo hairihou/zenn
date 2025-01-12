@@ -14,7 +14,7 @@ published: true
 
 `@mui/material` の `Select` と `TextField` を一緒に使う場面が多かったため、 `TextField` に構造を寄せる形で使い回しが利くようにしました。
 
-![](/images/easier-to-use-mui-select/sample-component.png)
+![](/images/easier-to-use-mui-select/sample-component.png =600x)
 
 ## まずはそのまま使ってみる
 
