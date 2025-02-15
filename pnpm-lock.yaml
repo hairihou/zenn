@@ -12,8 +12,8 @@ importers:
         specifier: ^1.10.4
         version: 1.10.4
       prettier:
-        specifier: ^3.4.2
-        version: 3.4.2
+        specifier: ^3.5.1
+        version: 3.5.1
       zenn-cli:
         specifier: ^0.1.158
         version: 0.1.158
@@ -74,8 +74,8 @@ packages:
     resolution: {integrity: sha512-DwRkvZA7IeZv9hwdXKr0PIi0FX1/2ehU5ImPYCs1q9QlPQVmKBborb/z5BnI5k/y52qaAHCgBhcuhm5cwLjMSQ==}
     hasBin: true
 
-  prettier@3.4.2:
-    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
+  prettier@3.5.1:
+    resolution: {integrity: sha512-hPpFQvHwL3Qv5AdRvBFMhnKo4tYxp0ReXiPn2bxkiohEX6mBeBwEpBSQTkD458RaaDKQMYSp4hX4UtfUTA5wDw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -129,6 +129,6 @@ snapshots:
       lefthook-windows-arm64: 1.10.4
       lefthook-windows-x64: 1.10.4
 
-  prettier@3.4.2: {}
+  prettier@3.5.1: {}
 
   zenn-cli@0.1.158: {}
