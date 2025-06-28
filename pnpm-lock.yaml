@@ -12,11 +12,11 @@ importers:
         specifier: ^1.11.5
         version: 1.11.5
       prettier:
-        specifier: ^3.5.3
-        version: 3.5.3
+        specifier: ^3.6.2
+        version: 3.6.2
       zenn-cli:
-        specifier: ^0.1.161
-        version: 0.1.161
+        specifier: ^0.1.162
+        version: 0.1.162
 
 packages:
 
@@ -74,13 +74,13 @@ packages:
     resolution: {integrity: sha512-iv3pJsfg0zDVqRa+sUsfZ4AsAk2W5KOpouNptLQxFncU5hZa60HfDHIp9pne/E7LoAyzGbwMCGYnBdGpQZc5Pg==}
     hasBin: true
 
-  prettier@3.5.3:
-    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
-  zenn-cli@0.1.161:
-    resolution: {integrity: sha512-PVdw0zj2GwtAaYbrvN/a5C2IHIzRhAu24AYkw16r344O8FYt/29v0pnGNQFKVfZdSZlgcl5HnH7jQWmlOVdXPw==}
+  zenn-cli@0.1.162:
+    resolution: {integrity: sha512-tSa/hseSrvQ+JwrpHgwJkfl3Z+pWE/y3ujW4OnP5aFFgnU7QZYaS+6dZJTRkEcwf9t2alViUACMjQevMaiYTqg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -129,6 +129,6 @@ snapshots:
       lefthook-windows-arm64: 1.11.5
       lefthook-windows-x64: 1.11.5
 
-  prettier@3.5.3: {}
+  prettier@3.6.2: {}
 
-  zenn-cli@0.1.161: {}
+  zenn-cli@0.1.162: {}

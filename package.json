@@ -16,7 +16,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "lefthook": "^1.11.5",
-    "prettier": "^3.5.3",
-    "zenn-cli": "^0.1.161"
+    "prettier": "^3.6.2",
+    "zenn-cli": "^0.1.162"
   }
 }
