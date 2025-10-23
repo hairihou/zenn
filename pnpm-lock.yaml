@@ -15,7 +15,7 @@ importers:
         specifier: ^3.6.2
         version: 3.6.2
       zenn-cli:
-        specifier: ^0.2.5
+        specifier: ^0.2.6
         version: 0.2.6
 
 packages:
