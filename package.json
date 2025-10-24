@@ -13,6 +13,6 @@
   "devDependencies": {
     "lefthook": "^2.0.0",
     "prettier": "^3.6.2",
-    "zenn-cli": "^0.2.6"
+    "zenn-cli": "^0.2.7"
   }
 }
