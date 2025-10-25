@@ -11,8 +11,8 @@
   "author": "Yusuke Mizuno <hairihou.dev@gmail.com>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "lefthook": "^2.0.0",
+    "lefthook": "^2.0.1",
     "prettier": "^3.6.2",
-    "zenn-cli": "^0.2.7"
+    "zenn-cli": "^0.2.8"
   }
 }
