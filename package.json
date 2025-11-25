@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "preview": "zenn preview",
-    "lint": "prettier --check .",
     "format": "prettier --write ."
   },
   "author": "Yusuke Mizuno <hairihou.dev@gmail.com>",
