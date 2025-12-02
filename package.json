@@ -7,8 +7,6 @@
     "preview": "zenn preview",
     "format": "prettier --write ."
   },
-  "author": "Yusuke Mizuno <hairihou.dev@gmail.com>",
-  "license": "UNLICENSED",
   "devDependencies": {
     "lefthook": "^2.0.1",
     "prettier": "^3.6.2",
