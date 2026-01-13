@@ -31,7 +31,7 @@ python = "3.13"
 ```toml: mise.toml
 [tools]
 node = "22"
-"npm:pnpm" = "9.15"
+pnpm = "9.15"
 ```
 
 `mise.toml` をcommitしてgitの管理対象にすることで、miseを使っている開発メンバーは `mise install` でruntime/package managerのバージョンをサクッと揃えることができます。いいね。
@@ -50,7 +50,7 @@ node = {NODE_VERSION}
 ```toml: mise.toml
 [tools]
 node = {NODE_VERSION}
-"npm:pnpm" = {PNPM_VERSION}
+pnpm = {PNPM_VERSION}
 ```
 
 #### yarn v4 (corepack)
