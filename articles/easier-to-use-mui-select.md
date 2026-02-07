@@ -50,7 +50,9 @@ export const SampleComponent: FC = () => {
   const [textFieldError, setTextFieldError] = useState<string>();
   const [selectError, setSelectError] = useState<string>();
 
-  const handleTextFieldChange = (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>): void => {
+  const handleTextFieldChange = (
+    event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ): void => {
     setName(event.target.value);
   };
 
@@ -102,7 +104,14 @@ export const SampleComponent: FC = () => {
 共通化する上で不要になるPropsは事前に削っておきます。各プロパティの適用されるコンポーネントを明確にするためにPropsの中に `SelectProps` を作っていますが、不要であればフラットにしてしまっても大丈夫です。(プロダクトで使う場合はもっと絞られる想定)
 
 ```tsx
-import { FormControl, FormControlProps, FormHelperText, InputLabel, Select, SelectProps } from '@mui/material';
+import {
+  FormControl,
+  FormControlProps,
+  FormHelperText,
+  InputLabel,
+  Select,
+  SelectProps,
+} from '@mui/material';
 import { FC, ReactNode, useMemo } from 'react';
 
 interface Props extends Omit<FormControlProps, 'children' | 'id' | 'onChange'> {
@@ -114,7 +123,7 @@ interface Props extends Omit<FormControlProps, 'children' | 'id' | 'onChange'> {
 export const SelectField: FC<Props> = ({ helperText, label, SelectProps, ...props }) => {
   const labelId = useMemo(
     () => (SelectProps?.id !== undefined ? `${SelectProps?.id}-label` : undefined),
-    [SelectProps?.id]
+    [SelectProps?.id],
   );
 
   return (
@@ -150,7 +159,9 @@ export const SampleComponent: FC = () => {
   const [textFieldError, setTextFieldError] = useState<string>();
   const [selectError, setSelectError] = useState<string>();
 
-  const handleTextFieldChange = (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>): void => {
+  const handleTextFieldChange = (
+    event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ): void => {
     setName(event.target.value);
   };
 
@@ -206,7 +217,14 @@ export const SampleComponent: FC = () => {
 なので `SelectField` 内で `forwardRef` で参照を渡すようにしておきます。実装は以下になります。
 
 ```tsx
-import { FormControl, FormControlProps, FormHelperText, InputLabel, Select, SelectProps } from '@mui/material';
+import {
+  FormControl,
+  FormControlProps,
+  FormHelperText,
+  InputLabel,
+  Select,
+  SelectProps,
+} from '@mui/material';
 import { FC, ReactNode, forwardRef, useMemo } from 'react';
 
 interface Props extends Omit<FormControlProps, 'children' | 'id' | 'onChange'> {
@@ -219,7 +237,7 @@ const SelectField: FC<Props> = forwardRef<HTMLDivElement, Props>(
   ({ helperText, label, SelectProps, ...props }, ref) => {
     const labelId = useMemo(
       () => (SelectProps?.id !== undefined ? `${SelectProps?.id}-label` : undefined),
-      [SelectProps?.id]
+      [SelectProps?.id],
     );
 
     return (
@@ -239,7 +257,7 @@ const SelectField: FC<Props> = forwardRef<HTMLDivElement, Props>(
         {!!helperText && <FormHelperText>{helperText}</FormHelperText>}
       </FormControl>
     );
-  }
+  },
 );
 
 SelectField.displayName = 'SelectField';

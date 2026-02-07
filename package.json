@@ -1,15 +1,17 @@
 {
   "name": "zenn",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "preview": "zenn preview",
-    "format": "prettier --write ."
+    "fmt": "oxfmt --write .",
+    "lint": "oxlint .",
+    "preview": "zenn preview"
   },
   "devDependencies": {
     "lefthook": "^2.0.1",
-    "prettier": "^3.6.2",
+    "oxfmt": "^0.28.0",
+    "oxlint": "^1.43.0",
     "zenn-cli": "^0.2.9"
   }
 }

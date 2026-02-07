@@ -92,7 +92,11 @@ DjangoやRuby on RailsのようなWebフレームワークでは、レスポン�
 ```html
 <!-- 以下のような記述をビルドの度にコピーしていく必要がある -->
 <script type="module" crossorigin src="path/to/dist/assets/index-B1EWmLEa.js"></script>
-<link rel="modulepreload" crossorigin href="path/to/dist/assets/_plugin-vue_export-helper-C8EBO7q5.js" />
+<link
+  rel="modulepreload"
+  crossorigin
+  href="path/to/dist/assets/_plugin-vue_export-helper-C8EBO7q5.js"
+/>
 <link rel="stylesheet" crossorigin href="path/to/dist/assets/style-ziVyQSII.css" />
 ```
 

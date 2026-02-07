@@ -1,0 +1,7 @@
+{
+  "experimentalSortPackageJson": {
+    "sortScripts": true
+  },
+  "ignorePatterns": ["pnpm-lock.yaml"],
+  "singleQuote": true
+}
