@@ -1,7 +1,7 @@
 {
-  "experimentalSortPackageJson": {
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "singleQuote": true,
+  "sortPackageJson": {
     "sortScripts": true
-  },
-  "ignorePatterns": ["pnpm-lock.yaml"],
-  "singleQuote": true
+  }
 }
