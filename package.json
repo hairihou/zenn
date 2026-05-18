@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "lefthook": "^2.1.6",
-    "oxfmt": "^0.49.0",
+    "oxfmt": "^0.50.0",
     "zenn-cli": "^0.4.8"
   }
 }
