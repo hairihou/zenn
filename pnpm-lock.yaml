@@ -243,8 +243,8 @@ packages:
       vite-plus:
         optional: true
 
-  package-manager-detector@1.6.0:
-    resolution: {integrity: sha512-61A5ThoTiDG/C8s8UMZwSorAGwMJ0ERVGj2OjoW5pAalsNOg15+iQiPzrLJ4jhZ1HJzmC2PIHT2oEiH3R5fzNA==}
+  package-manager-detector@1.8.0:
+    resolution: {integrity: sha512-yQA4H19AmPEoMUeavPMDIe1higySl/gH/yaQrkT/s07Qp+7pp2hYz30N3z2l5BkjVkF9Ow6o0wjJamm2y7Sn0A==}
 
   run-applescript@7.1.0:
     resolution: {integrity: sha512-DPe5pVFaAsinSaV6QjQ6gdiedWDcRCbUuiQfQa2wmWV7+xC9bGulGI8+TdRmoFkAPaBXk8CrAbnlY2ISniJ47Q==}
@@ -419,7 +419,7 @@ snapshots:
       '@oxfmt/binding-win32-ia32-msvc': 0.60.0
       '@oxfmt/binding-win32-x64-msvc': 0.60.0
 
-  package-manager-detector@1.6.0: {}
+  package-manager-detector@1.8.0: {}
 
   run-applescript@7.1.0: {}
 
@@ -432,4 +432,4 @@ snapshots:
   zenn-cli@0.5.2:
     dependencies:
       open: 10.2.0
-      package-manager-detector: 1.6.0
+      package-manager-detector: 1.8.0
