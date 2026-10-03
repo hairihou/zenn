@@ -8,7 +8,6 @@
     "preview": "zenn preview"
   },
   "devDependencies": {
-    "lefthook": "^2.1.12",
     "oxfmt": "^0.67.0",
     "zenn-cli": "^0.5.4"
   }
