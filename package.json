@@ -8,7 +8,7 @@
     "preview": "zenn preview"
   },
   "devDependencies": {
-    "oxfmt": "^0.71.0",
+    "oxfmt": "^0.72.0",
     "zenn-cli": "^0.5.4"
   }
 }
