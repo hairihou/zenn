@@ -7,5 +7,6 @@
   "major": {
     "automerge": false
   },
-  "rebaseWhen": "conflicted"
+  "rebaseWhen": "conflicted",
+  "schedule": ["on sunday and wednesday"]
 }
