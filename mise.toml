@@ -1,7 +1,7 @@
 [tools]
-hk = "2.7.0"
-node = "24.22.0"
-pnpm = "12.13.0"
+hk = "2.8.0"
+node = "24.22.1"
+pnpm = "12.14.0"
 
 [env]
 _.path = ["node_modules/.bin"]
