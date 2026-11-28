@@ -10,5 +10,12 @@
   "devDependencies": {
     "oxfmt": "^0.79.0",
     "zenn-cli": "^0.5.15"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "26.13.1",
+      "onFail": "download"
+    }
   }
 }
